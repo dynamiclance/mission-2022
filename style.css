@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+}
+section{
+    padding: 35px 0;
+}
+.flexible-content {
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width h1 {
+    border-left: 3px solid #FF855A;
+}
+.half-width img{
+    width: 80%;
+
+}
+
+.special-text{
+    display: block;
+    color: #FFAD5A;
+}
+
+.mission-special-text{
+    color: #FFAD5A;
+}
+
+.link-btn {
+    background: #FF5959;
+    color: #ffff;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 32px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.mission-content-box {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+.mission-area h1 {
+    text-align: center;
+}
+
+.mission-single-box img {
+    width: 39%;
+}
+
+
+.mission-single-box {
+    padding: 56px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+.box-1{
+    background-color: #EDF5F6;
+}
+.box-2{
+    background-color: #FFEEEE;
+}
+
+.box-3{
+    background-color: #FFF4D6;
+}
+
+.develop-area > .develop-content {
+    padding-left: 0;
+    padding-right: 100px;
+}
+
+.develop-area {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+
+.footer-area {
+    padding: 50px 0;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
